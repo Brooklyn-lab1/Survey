@@ -1,0 +1,41 @@
+.survey {
+   &__body {
+   }
+
+   &__preview-text {
+   }
+}
+
+.form {
+   &__title {
+   }
+
+   &__wrapper {
+      display: flex;
+   }
+
+   &__input {
+      border: 1px solid #adadad;
+      border-radius: 10px;
+      padding: 17px 15px;
+      max-width: 464px;
+      width: 100%;
+      margin-right: 20px;
+   }
+
+   &__button {
+      cursor: pointer;
+      max-width: 224px;
+      width: 100%;
+      background: #ff2e63;
+      padding: 17px;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 25px;
+      color: #ffffff;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+}
